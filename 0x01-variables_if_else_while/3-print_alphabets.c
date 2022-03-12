@@ -20,7 +20,7 @@ int main(void)
 	while (i < 26)
 	{
 		putchar(i + 65);
-		i++
+		i++;
 	}
 	printf("\n");
 	return (0);
