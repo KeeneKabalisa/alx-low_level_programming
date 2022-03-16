@@ -8,8 +8,9 @@ int main(void)
 {
 	int max = 1024;
 	int sum = 0;
-	
-	for (int i = 0; i < max; i++)
+	int i;
+
+	for (i = 0; i < max; i++)
 	{
 		if ((i % 3 == 0) || (i % 5 == 0))
 			sum = sum + i;
