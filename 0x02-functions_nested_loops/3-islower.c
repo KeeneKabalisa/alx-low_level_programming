@@ -3,7 +3,7 @@
 
 /**
  * _islower - finds out if char is lowercase
- * @c: input 
+ * @c: input
  *
  * Return: 1 if lower, 0 if upper
  */
@@ -16,7 +16,7 @@ int _islower(int c)
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		if (ch == c)
-		       i = 1;
+			i = 1;
 	}
 	return (i);
 }
