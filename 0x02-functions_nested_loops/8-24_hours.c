@@ -12,11 +12,11 @@ void jack_bauer(void)
 	int min = '0';
 	int min2 = '0';
 
-	while (hour < '3')
+	while (hour <= '2')
 	{
-		while (hour2 < '4')
+		while (hour2 <= '3')
 		{
-			while (min < '6')
+			while (min <= '5')
 			{
 				while (min2 <= '9')
 				{
@@ -28,7 +28,7 @@ void jack_bauer(void)
 					_putchar('\n');
 					min2++;
 				}
-				min2 ='0';
+				min2 = '0';
 				min++;
 			}
 			min = '0';
