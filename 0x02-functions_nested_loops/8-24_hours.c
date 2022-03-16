@@ -18,7 +18,7 @@ void jack_bauer(void)
 		{
 			while (min < '7')
 			{
-				while (min2 < '10')
+				while (min2 <= '9')
 				{
 					_putchar(hour);
 					_putchar(hour2);
