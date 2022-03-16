@@ -1,15 +1,16 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - putchar alpha
  *
  * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	char ch = 'a';
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 		putchar(ch);
-	return (0);
+	putchar(10);
 }
