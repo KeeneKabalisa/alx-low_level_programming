@@ -3,7 +3,9 @@
 /**
  * reverse_array - reverse array
  * @a: array
- * @n: int input 
+ * @n: int input
+ *
+ * Return: nothing
  */
 
 void reverse_array(int *a, int n)
