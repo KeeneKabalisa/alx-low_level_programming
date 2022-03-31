@@ -3,7 +3,7 @@
  * _strlen_recursion - gets string length
  *
  * @s: String input
- * Returns; Str len int
+ * Return; Str len int
  */
 int _strlen_recursion(char *s)
 {
