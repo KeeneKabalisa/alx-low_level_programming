@@ -1,1 +1,1 @@
-This repo is meant for C programming language practice.
+Readme for statis libraries in C.
