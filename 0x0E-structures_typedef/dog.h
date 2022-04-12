@@ -1,7 +1,7 @@
 #ifndef DOG_H
 #define DOG_H
 
-/*
+/**
  * struct dog - user defined dog structure
  *
  * @name: dog's name
