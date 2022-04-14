@@ -1,6 +1,12 @@
 #ifndef FUNCTION_POINTERS_H
 #define FUNCTION_POINTERS_H
 
+/*
+ * File: function_pointers.h
+ * Auth: Keene Kabalisa
+ * Desc: h file for prototypes found in 0x0F-function_pointers
+ */
+
 #include <stdlib.h>
 
 void print_name(char *name, void (*f)(char *));
