@@ -67,3 +67,4 @@ void print_arr(int *array, size_t left, size_t right)
 			printf("%d\n", array[i]);
 	}
 }
+
